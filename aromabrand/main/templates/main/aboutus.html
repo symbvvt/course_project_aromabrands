@@ -1,0 +1,124 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>perfume shop</title>
+
+
+    <link rel="stylesheet" href="{% static 'css/aboutus.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Simonetta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="/home"> <img src="{% static 'images/photo5416067169323694149-removebg-preview%20(1).png' %}"></a>
+                </div>
+
+                <div class="header__search">
+                    <input class="search" type="text"  placeholder="Search Here...">
+                </div>
+
+                <div class="header_link">
+                    <a href="#">Basket</a>
+                    <a href="#">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <div class="container">
+            <nav class="nav">
+               <a class="nav_link" href="/women">Women</a>
+                <a class="nav_link" href="/men">Men</a>
+                <a class="nav_link" href="#">Skin care</a>
+                <a class="nav_link" href="#">New</a>
+                <a class="nav_link" href="#">Sales</a>
+            </nav>
+        </div>
+    </div>
+
+   <div class="container">
+   <div class="columns">
+        <div class="photo">
+            <a href="#" class="imgs"><img src="{% static 'images/perfume4.jfif' %}"></a>
+            </div>
+        </div>
+    </div>
+      <div class="container">
+        <div class="phrase">
+            <div class="head">Our story</div>
+            <div class="text">
+            A leader in prestige omni-retail, our purpose at Aroma Brands is to create a welcoming beauty shopping experience and inspire fearlessness in our community.
+
+We operate over 2,700 stores in 35 countries worldwide, with an expanding base of over 500 stores across the Americas. Since opening our first US store in New York’s SoHo neighborhood in 1998, Aroma Brands has been an industry-leading champion of diversity, inclusivity, and empowerment in the US, guided by our longstanding company values. In 2019, Aroma Brands announced a new tagline and manifesto, “We Belong to Something Beautiful,” to reinforce our dedication to fostering belonging among all clients and employees and to publicly strive for a more inclusive vision for retail in the Americas.
+
+Owned by LVMH Moët Hennessy Louis Vuitton, the world’s leading luxury goods group, Aroma Brands was founded in France by Symbat Zhunisbayeva and Aiaru Sailau in 1970 and is defined by its unique, open-sell environment with an ever-increasing assortment of products from carefully curated brands, featuring indie darlings, emerging favorites, trusted classics, and Aroma Brands’s own line, Aroma Brands Collection. Today, Aroma Brands is a powerful beauty presence in countries around the world thanks to our unparalleled assortment of prestige products in every category, unbiased service from beauty experts, interactive shopping environment, and relentless innovation.
+
+Aroma Brands has been recognized by Forbes as one of America’s Best Employers three years in a row, in 2018, 2019, and 2020. For two years in a row, in 2019 and 2020, Aroma Brands scored 100% on the Human Rights Campaign’s Corporate Quality Index, the national benchmarking tool on corporate policies and practices pertinent to LGBTQ+ employees.
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+    <div class="portfolio">
+    <ul>
+        <li><span class="descr">Aiaru Sailau<br><br>CEO</span><img src="{% static 'images/Aiaru.jpg' %}" alt="Alt"></li>
+        <li><span class="descr">Symbat Zhunisbayeva<br><br>CFO</span><img src="{% static 'images/Symbat.jpg' %}" alt="Alt"></li>
+        </ul>
+        </div>
+    </div>
+<!-- Footer   -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer_inner">
+            <div class="for_logo"><a href="home"> <img src="{% static 'images/photo5416067169323694149-removebg-preview%20(1).png' %}"></a></div>
+            <div class="for_pages">
+                <div class="firstcol">
+                    <div class="theme">CUSTOMER SERVICE</div>
+                    <div class="pages">
+                        <a href="aboutus">about us</a>
+                        <br>
+                        <a href="contacts(btstrp).html">contacts</a>
+                        <br>
+                        <a href="#">shipping and payment</a>
+                        <br>
+                        <a href="#">work with us</a>
+                        <br>
+                    </div>
+                </div>
+                <div class="firstcol">
+                    <div class="theme">Conditions</div>
+                    <div class="pages">
+                        <a href="#">legal notice</a>
+                        <br>
+                        <a href="#">privacy policy</a>
+                        <br>
+                        <a href="#">cookie policy</a>
+                        <br>
+                        <a href="#">sitemap</a>
+                   </div>
+                </div>
+                </div>
+            <div class="for_end">
+            <div class="social">
+                <a href="#"><img src="{% static 'images/em.png' %}" alt=""></a>
+                <a href="#"><img src="{% static 'images/face.png' %}" alt=""></a>
+                <a href="#"><img src="{% static 'images/goo.png' %}" alt=""></a>
+                <a href="#"><img src="{% static 'images/inst.png' %}" alt=""></a>
+                <a href="#"><img src="{% static 'images/pint.png' %}" alt=""></a>
+            </div>
+                <div class="copyr">© 2021 AromaBrands KZ, Inc. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

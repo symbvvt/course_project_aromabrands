@@ -1,0 +1,132 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>perfume shop</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Simonetta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="/home"> <img src="{% static 'images/photo5416067169323694149-removebg-preview%20(1).png' %}"></a>
+                </div>
+
+                <div class="header__search">
+                    <input class="search" type="text"  placeholder="Search Here...">
+                </div>
+
+                <div class="header_link">
+                    <a href="#">Basket</a>
+                    <a href="#">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <div class="container">
+            <nav class="nav">
+               <a class="nav_link" href="/women">Women</a>
+                <a class="nav_link" href="/men">Men</a>
+                <a class="nav_link" href="#">Skin care</a>
+                <a class="nav_link" href="#">New</a>
+                <a class="nav_link" href="#">Sales</a>
+
+            </nav>
+        </div>
+    </div>
+
+<!--    <div class="video">-->
+<!--        <video controls width="1684" loop muted autoplay>-->
+<!--            <source src="{% static 'images/Natalie_Portman_for_Miss_Dior_Rose_N%E2%80%99Roses,_the_new_fragrance.mp4" type="video/mp4' %}">-->
+<!--            <source src="{% static 'images/Natalie_Portman_for_Miss_Dior_Rose_N%E2%80%99Roses,_the_new_fragrance_video.webm" type="video/webm' %}">-->
+<!--        </video>-->
+<!--    </div>-->
+    <div class="main_img">
+        <img src="{% static 'images/home.jpg' %}">
+    </div>
+
+
+    <div class="container">
+        <div class="phrase">
+            <div class="text">
+            "Smell is the brother of breath. It penetrates into the very insides of people, into their hearts, and there it is decided whether this smell is pleasant to us, hated, whether we love it or hate it. He who owns aromas owns people."
+            </div>
+        </div>
+    </div>
+
+
+    <div class="columns">
+        <div class="photo">
+            <a href="men.html" class="imgs"><img src="{% static 'images/forhim.jpg' %}"></a>
+        </div>
+        <div class="photo">
+            <a href="women.html" class="imgs"><img src="{% static 'images/forher.jpg' %}"></a>
+        </div>
+    </div>
+
+    <div class="pre_footer">
+        <div class="pre_footer_inner">
+            <a href="#" class="imgs"><img src="{% static 'images/dolce.jpg' %}"></a>
+            <a href="#" class="imgs"><img src="{% static 'images/gucci.jpg' %}"></a>
+            <a href="#" class="imgs"><img src="{% static 'images/tomford.jpg' %}"></a>
+            <a href="#" class="imgs"><img src="{% static 'images/armani2.png' %}"></a>
+            <a href="#" class="imgs"><img src="{% static 'images/burberry.jpg' %}"></a>
+            <a href="#" class="imgs"><img src="{% static 'images/chanel.png' %}"></a>
+        </div>
+    </div>
+
+  <!-- Footer   -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer_inner">
+            <div class="for_logo"><a href="/home"> <img src="{% static 'images/photo5416067169323694149-removebg-preview%20(1).png' %}"></a></div>
+            <div class="for_pages">
+                <div class="firstcol">
+                    <div class="theme">CUSTOMER SERVICE</div>
+                    <div class="pages">
+                        <a href="/aboutus">about us</a>
+                        <br>
+                        <a href="/contacts(btstrp)">contacts</a>
+                        <br>
+                        <a href="#">shipping and payment</a>
+                        <br>
+                        <a href="#">work with us</a>
+                        <br>
+                    </div>
+                </div>
+                <div class="firstcol">
+                    <div class="theme">Conditions</div>
+                    <div class="pages">
+                        <a href="#">legal notice</a>
+                        <br>
+                        <a href="#">privacy policy</a>
+                        <br>
+                        <a href="#">cookie policy</a>
+                        <br>
+                        <a href="#">sitemap</a>
+                   </div>
+                </div>
+                </div>
+            <div class="for_end">
+             <div class="social">
+                <a href="#"><img src="{% static 'images/em.png' %}" alt=""></a>
+                <a href="#"><img src="{% static 'images/face.png' %}" alt=""></a>
+                <a href="#"><img src="{% static 'images/goo.png' %}" alt=""></a>
+                <a href="#"><img src="{% static 'images/inst.png' %}" alt=""></a>
+                <a href="#"><img src="{% static 'images/pint.png' %}" alt=""></a>
+            </div>
+                <div class="copyr">© 2021 AromaBrands KZ, Inc. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

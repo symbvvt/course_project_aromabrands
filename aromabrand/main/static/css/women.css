@@ -1,0 +1,222 @@
+@import url(reset.css);
+body{
+	background-color: white;
+    font-family: 'Balsamiq Sans';
+    width: 100%;
+    margin: 0;
+    transition: all 0.5s ease-in-out;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+/*Container*/
+.container{
+	width: 100%;
+    max-width: 960px;
+	margin: 10px auto;
+    display: flex;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.header__inner{
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 37px;
+	justify-content: space-between;
+	align-items: center;
+    width: 100%;
+    margin: auto;
+    max-width: 100%;
+}
+.header__logo{
+    width: 35%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+}
+.header__search{
+    width: 35%;
+    max-height: 100%;
+    display: flex;
+}
+.header_link{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header_link a{
+    font-size: 120%;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 20%;
+    color: white;
+    display: flex;
+}
+.search{
+    max-width: 100%;
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 2px;
+    background-color:white;
+}
+.navbar{
+    height: 60px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    padding-top: 18px;
+    margin-left: 10px;
+    padding-bottom: 35px;
+    border-bottom: 2px solid black;
+}
+.nav_link{
+    margin-top: 19px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+
+}
+/*Footer*/
+.footer{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+.for_pages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+.social{
+    text-align: center;
+    padding-top: 5%;
+}
+.firstcol{
+    width: 480px;
+    margin-bottom: 4%;
+}
+.pages a{
+    display:block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+.theme{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+.for_logo{
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 35%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.for_end{
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35%;
+    padding-right: 35%;
+    margin-top:4%;
+}
+.copyr{
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.social img:hover{
+    background: #494949;
+    border-radius: 50%;
+}
+/*----------------------------------*/
+/*Main content*/
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.products_inner{
+    padding-bottom: 60px;
+}
+.products_inner img{
+    width: 250px;
+    padding: 10px;
+}
+.products_inner a{
+    text-decoration: none;
+}
+.title{
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'Mulish', sans-serif;
+}
+.brand{
+    color: darkslategray;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+
+}
+.name_perfume{
+    font-size: 17px;
+    text-align: center;
+    width: 250px;
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+.price{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+

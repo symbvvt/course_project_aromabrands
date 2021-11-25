@@ -1,0 +1,91 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/third.css' %}">
+    <title>Third</title>
+</head>
+<body>
+
+   <div class="header">
+    <div class="container">
+        <div class="header__inner">
+        <div class="header__logo">
+            <img src="{% static 'images/logo.png' %}"></div>
+            <div class="header__search">
+            <input class="search" type="text"  placeholder="Search Here...">
+            </div>
+            <div class="header_link">
+                    <a href="#">Basket</a>
+                    <a href="#">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navigbar">
+    <div class="container">
+        <nav class="nav">
+        <a class="nav_link" href="#">Women</a>
+        <a class="nav_link" href="#">Men</a>
+        <a class="nav_link" href="#">Brands</a>
+        <a class="nav_link" href="#">New</a>
+        <a class="nav_link" href="#">Sales</a>
+        </nav>
+        </div>
+    </div>
+
+   <div class="info">
+         <h1>Developers</h1>
+            <h4><p> Adress: {{ adress }}</p>
+                <p> Team leader:{{ user2.name }}</p>
+                <p>Phone number:{{ user2.phone }}</p>
+                <p>Mail address: {{ user2.mail }}</p>
+                <p>Office hours: {{ user2.hours }}</p>
+                <p> Developer: {{ user1.name }}</p>
+                <p>Phone number: {{ user1.phone }}</p>
+                <p>Mail address: {{ user1.mail }}</p>
+            </h4>
+
+       <a href="/second">Previous page</a>
+
+     </div>
+ </div>
+
+    <div class="footer">
+        <div class="container">
+        <div class="footer__inner">
+            <div class="firstcol">
+                <div class="theme">CUSTOMER SERVICE</div>
+                <div class="pages">
+                <a href="#">about us</a>
+                    <br>
+                <a href="#">contacts</a>
+                <br>
+                <a href="#">shipping and payment</a>
+                <br>
+                <a href="#">work with us</a>
+                <br>
+                </div>
+            </div>
+            <div class="firstcol">
+                 <div class="theme">Conditions</div>
+                <div class="pages">
+                <a href="#">legal notice</a>
+                    <br>
+                <a href="#">privacy policy</a>
+                    <br>
+                <a href="#">cookie policy</a>
+                    <br>
+                <a href="#">sitemap</a>
+               </div>
+            </div>
+
+            </div>
+            </div>
+    </div>
+
+</body>
+</html>

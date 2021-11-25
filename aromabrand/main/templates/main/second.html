@@ -1,0 +1,96 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Second</title>
+    <link rel="stylesheet" href="{% static 'css/second.css' %}">
+
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="header__inner">
+        <div class="header__logo">
+            <img src="{% static 'images/logo.png' %}"></div>
+            <div class="header__search">
+            <input class="search" type="text"  placeholder="Search Here...">
+            </div>
+            <div class="header_link">
+                    <a href="#">Basket</a>
+                    <a href="#">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navigbar">
+    <div class="container">
+        <nav class="nav">
+        <a class="nav_link" href="#">Women</a>
+        <a class="nav_link" href="#">Men</a>
+        <a class="nav_link" href="#">Brands</a>
+        <a class="nav_link" href="#">New</a>
+        <a class="nav_link" href="#">Sales</a>
+        </nav>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="team">
+            <h1>About team members</h1>
+                <div class="allmembers">
+                    <div class="members">
+
+                        <h4>{{ user1.name }}</h4>
+                        <h4>{{ user1.surname }}</h4>
+                        <img src="{% static 'images/Aiaru.jpg' %}">
+                    </div>
+                    <div class="members">
+
+                        <h4>{{ user2.name }}</h4>
+                        <h4>{{ user2.surname }}</h4>
+                        <img src="{% static 'images/Symbat.jpg' %}">
+                </div>
+            </div>
+            <a href="/first">Previous page</a>
+            <a href="/third">Next page</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+        <div class="footer__inner">
+            <div class="firstcol">
+                <div class="theme">CUSTOMER SERVICE</div>
+                <div class="pages">
+                <a href="#">about us</a>
+                    <br>
+                <a href="#">contacts</a>
+                <br>
+                <a href="#">shipping and payment</a>
+                <br>
+                <a href="#">work with us</a>
+                <br>
+                </div>
+            </div>
+            <div class="firstcol">
+                 <div class="theme">Conditions</div>
+                <div class="pages">
+                <a href="#">legal notice</a>
+                    <br>
+                <a href="#">privacy policy</a>
+                    <br>
+                <a href="#">cookie policy</a>
+                    <br>
+                <a href="#">sitemap</a>
+               </div>
+            </div>
+
+            </div>
+            </div>
+    </div>
+</body>
+</html>
